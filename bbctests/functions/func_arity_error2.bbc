@@ -1,0 +1,11 @@
+NAME: func_arity_error2
+DESCRIPTION: Fail with arity error
+STATUS:
+CT error
+SRC:
+(
+    (def (func a) 1)
+    (func 1 2)
+)
+EXPECTED:
+Arity mismatch: func expected 1 arguments but got 2

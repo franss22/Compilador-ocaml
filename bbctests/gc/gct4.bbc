@@ -1,0 +1,12 @@
+NAME: More complicated tuples
+DESCRIPTION: tuple as variable in a let expression
+PARAMS: USE_GC=1, HEAP_SIZE=16
+SRC:
+(let (a (tup 1 (tup 1 2)))
+(let (b (get (tup 1 2) 1))
+
+(tup a b)
+
+)))
+EXPECTED:
+|ORACLE

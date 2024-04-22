@@ -1,0 +1,8 @@
+NAME: mod_fail_0_safe
+DESCRIPTION: tries to calculate a number modulo 0 with safety flag enabled
+STATUS: 
+RT error
+SRC:
+(% 5 0)
+EXPECTED:
+Arithmetic error: Modulo by 0

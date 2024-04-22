@@ -1,0 +1,6 @@
+NAME: sub_pp
+DESCRIPTION: subtracts two positive numbers
+SRC:
+(- 20 22)
+EXPECTED:
+|ORACLE

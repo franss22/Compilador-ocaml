@@ -1,0 +1,6 @@
+(letrec ((f (lambda (x) 
+  (if (< x 1) 
+    1 
+    (* x (@ f (sub1 x)))))))
+  (@ f 5)
+)

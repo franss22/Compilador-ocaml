@@ -1,0 +1,6 @@
+NAME: and_tf
+DESCRIPTION: ands two bools
+SRC:
+(and true false)
+EXPECTED:
+|ORACLE

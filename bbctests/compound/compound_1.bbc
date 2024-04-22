@@ -1,0 +1,6 @@
+NAME: compound1
+DESCRIPTION: compound expression
+SRC:
+(+ (+ 3 (sub1 6)) 12)
+EXPECTED:
+|ORACLE

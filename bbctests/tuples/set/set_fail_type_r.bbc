@@ -1,0 +1,8 @@
+NAME: set_fail_type_r
+DESCRIPTION: tries to set an element of a tuple with a non-integer index
+STATUS:
+RT error
+SRC:
+(set (tup 1 2 3 4) (tup) 5)
+EXPECTED:
+Type error: Expected integer but got (tup)

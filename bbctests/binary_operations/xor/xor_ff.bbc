@@ -1,0 +1,6 @@
+NAME: xor_ff
+DESCRIPTION: xors two bools
+SRC:
+(xor false false)
+EXPECTED:
+|ORACLE

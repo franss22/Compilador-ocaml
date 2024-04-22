@@ -1,0 +1,8 @@
+NAME: lambda as arg
+DESCRIPTION: lambda as arg
+SRC:
+(let (f (lambda (x y) (* x y)))
+  (let (g (lambda (h) (@ h 6 9)))
+    (@ g f)))
+EXPECTED:
+|ORACLE

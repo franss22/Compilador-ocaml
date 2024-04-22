@@ -1,0 +1,6 @@
+NAME: sub_np
+DESCRIPTION: subtracts a negative and a positive number
+SRC:
+(- -20 22)
+EXPECTED:
+|ORACLE

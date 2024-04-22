@@ -1,0 +1,6 @@
+NAME: mod
+DESCRIPTION: divides one number by another and returns the remainder
+SRC:
+(% 5 2)
+EXPECTED:
+|ORACLE

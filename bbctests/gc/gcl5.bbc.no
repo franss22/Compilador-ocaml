@@ -1,0 +1,11 @@
+NAME: Test small closure works with 10 words
+DESCRIPTION: Check if a lambda with 3 values fits in 10 words
+PARAMS: USE_GC=1, HEAP_SIZE=10
+STATUS: RT error
+SRC:
+
+
+(@ (lambda (x) (tup 1 2 3 x)) 1)
+
+EXPECTED:
+Error: out of memory!

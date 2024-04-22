@@ -1,0 +1,8 @@
+NAME: add1_overflow_safe
+DESCRIPTION: Tries to add1 to the max integer with safety flag enabled
+STATUS:
+RT error
+SRC:
+(add1 4611686018427387903)
+EXPECTED:
+Arithmetic error: \+ produced an overflow

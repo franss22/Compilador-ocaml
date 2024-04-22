@@ -1,0 +1,10 @@
+NAME: func_cross_apply
+DESCRIPTION: Apply a function inside another
+SRC:
+(
+    (def (f x) (* 2 x))
+    (def (g y) (+ (- y 2) (f y)))
+    (g 5)
+)
+EXPECTED:
+|ORACLE

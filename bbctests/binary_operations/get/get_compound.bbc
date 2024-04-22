@@ -1,0 +1,6 @@
+NAME: get_compound
+DESCRIPTION: uses result from get in an operation
+SRC:
+(+ (get (tup 1 2 3 4) 2) 5)
+EXPECTED:
+|ORACLE

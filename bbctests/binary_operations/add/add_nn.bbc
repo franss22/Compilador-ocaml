@@ -1,0 +1,6 @@
+NAME: add_nn
+DESCRIPTION: adds two negative numbers
+SRC:
+(+ -20 -22)
+EXPECTED:
+|ORACLE

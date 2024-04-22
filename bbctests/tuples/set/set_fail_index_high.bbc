@@ -1,0 +1,8 @@
+NAME: set_fail_index_high
+DESCRIPTION: tries to set a value of a tuple with an index greater than the tuple's length
+STATUS:
+RT error
+SRC:
+(set (tup 1 2 3 4) 4 42)
+EXPECTED:
+Index out of bounds: Tried to access index 4 of (tup 1 2 3 4)

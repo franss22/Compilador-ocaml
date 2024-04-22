@@ -1,0 +1,9 @@
+NAME: comp_def
+DESCRIPTION: Compile function definition
+SRC:
+(
+    (def (func x) (if (> x 0) (func (- x 1)) x))
+    (func 2)
+)
+EXPECTED:
+|ORACLE

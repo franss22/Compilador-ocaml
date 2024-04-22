@@ -1,0 +1,8 @@
+NAME: sub1_fail_type
+DESCRIPTION: tries to sub1 to a boolean
+STATUS:
+RT error
+SRC:
+(sub1 false)
+EXPECTED:
+Type error: Expected integer but got false

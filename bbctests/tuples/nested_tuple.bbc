@@ -1,0 +1,6 @@
+NAME: nested_tuple
+DESCRIPTION: evaluates a nested tuple
+SRC:
+(tup (tup) (tup 1) (tup 1 2) (tup 1 (+ 1 1) (+ (* 1 1) (* 1 2))))
+EXPECTED:
+|ORACLE

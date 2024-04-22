@@ -1,0 +1,9 @@
+NAME: arity_mismatch_record2
+DESCRIPTION: tries to make a record with the wrogn number of arguments
+SRC:
+(
+    (record rec a b)
+    (rec 1)
+)
+EXPECTED:
+|ORACLE

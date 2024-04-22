@@ -1,0 +1,6 @@
+NAME: get_get
+DESCRIPTION: gets value from get with index get
+SRC:
+(get (get (tup (tup) (tup 1) (tup 1 2) (tup 1 2 3)) 2) (get (tup 1 2 3 4) 0))
+EXPECTED:
+|ORACLE

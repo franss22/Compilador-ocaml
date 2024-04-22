@@ -1,0 +1,7 @@
+NAME: print_bool
+DESCRIPTION: prints a boolean
+SRC:
+(not (print true))
+EXPECTED:
+> true
+false

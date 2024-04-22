@@ -1,0 +1,8 @@
+NAME: set_fail_index_low
+DESCRIPTION: tries to set a value of a tuple with negative index
+STATUS:
+RT error
+SRC:
+(set (tup 1 2 3 4) -1 42)
+EXPECTED:
+Index out of bounds: Tried to access index -1 of (tup 1 2 3 4)

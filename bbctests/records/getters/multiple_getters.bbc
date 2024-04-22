@@ -1,0 +1,14 @@
+NAME: multiple_getters
+DESCRIPTION: Uses all getters of a record
+SRC:
+(
+    (record rec a b c d)
+    (let (T (rec 1 2 3 4))
+    (+ 
+    (+ (rec-a T)(rec-b T))
+    (+ (rec-c T)(rec-d T))
+    )
+    )
+)
+EXPECTED:
+|ORACLE

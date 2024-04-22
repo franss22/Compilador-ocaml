@@ -1,0 +1,3 @@
+nasm -f elf64 -g -F dwarf -o test.o test.s
+clang -o test.run -g rt/sys.c test.o
+gdb test.run

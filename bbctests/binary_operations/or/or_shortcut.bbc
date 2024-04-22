@@ -1,0 +1,6 @@
+NAME: or_shortcut
+DESCRIPTION: avoids run-time error using or shortcut
+SRC:
+(or true 42)
+EXPECTED:
+true

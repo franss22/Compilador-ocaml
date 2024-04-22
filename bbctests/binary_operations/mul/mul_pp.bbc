@@ -1,0 +1,6 @@
+NAME: mul_pp
+DESCRIPTION: multiplies two positive numbers
+SRC:
+(* 20 22)
+EXPECTED:
+|ORACLE

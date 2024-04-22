@@ -1,0 +1,12 @@
+NAME: overwrite_declaration_record_error
+DESCRIPTION: declares 2 different records with the same name
+STATUS:
+CT error
+SRC:
+(
+    (record rec)
+    (record rec a)
+    (rec 1)
+)
+EXPECTED:
+"Record rec is declared more than once"

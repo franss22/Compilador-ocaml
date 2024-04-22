@@ -1,0 +1,9 @@
+{
+    "ocaml.sandbox": {
+        "kind": "opam",
+        "switch": "compilation"
+    },
+    "files.associations": {
+        "string_view": "c"
+    }
+}

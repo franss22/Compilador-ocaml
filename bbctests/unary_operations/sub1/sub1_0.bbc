@@ -1,0 +1,6 @@
+NAME: sub1_0
+DESCRIPTION: decrements 0
+SRC:
+(sub1 0)
+EXPECTED:
+|ORACLE

@@ -1,0 +1,8 @@
+NAME: eq_fail_type_l
+DESCRIPTION: tries to test equality between a boolean and a number
+STATUS:
+RT error
+SRC:
+(== true 42)
+EXPECTED:
+Type error: Expected integer but got true

@@ -1,0 +1,7 @@
+NAME: lambda 2 vars
+DESCRIPTION: lambda with 2 variables
+SRC:
+(let (f (lambda (x y) (* x y)))
+  (@ f 3 4))
+EXPECTED:
+|ORACLE

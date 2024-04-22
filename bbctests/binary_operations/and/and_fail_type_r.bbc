@@ -1,0 +1,8 @@
+NAME: and_fail_type_r
+DESCRIPTION: tries to and a boolean and a number
+STATUS:
+RT error
+SRC:
+(and true 42)
+EXPECTED:
+Type error: Expected boolean but got 42

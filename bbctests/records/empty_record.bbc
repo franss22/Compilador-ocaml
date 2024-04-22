@@ -1,0 +1,9 @@
+NAME: empty_record
+DESCRIPTION: Returns an empty record (tuple)
+SRC:
+(
+    (record rec)
+    (rec)
+)
+EXPECTED:
+|ORACLE

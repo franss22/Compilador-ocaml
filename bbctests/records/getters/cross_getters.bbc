@@ -1,0 +1,10 @@
+NAME: cross_getters
+DESCRIPTION: Uses a getter of a different record
+SRC:
+(
+    (record rec a)
+    (record car x)
+    (car-x (rec 1))
+)
+EXPECTED:
+|ORACLE

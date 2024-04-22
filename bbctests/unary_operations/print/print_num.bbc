@@ -1,0 +1,10 @@
+NAME: print_num
+DESCRIPTION: prints a nice number
+SRC:
+(sub1 (print (sub1 (print (sub1 (print (sub1 (print 5))))))))
+EXPECTED:
+> 5
+> 4
+> 3
+> 2
+1

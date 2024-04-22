@@ -1,0 +1,6 @@
+NAME: get_last
+DESCRIPTION: gets last value from a tuple
+SRC:
+(get (tup 1 2 3 4) 3)
+EXPECTED:
+|ORACLE

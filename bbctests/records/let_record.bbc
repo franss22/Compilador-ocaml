@@ -1,0 +1,9 @@
+NAME: let_record
+DESCRIPTION: Saves a record in a let
+SRC:
+(
+    (record rec a)
+    (let (a (rec 1)) a)
+)
+EXPECTED:
+|ORACLE

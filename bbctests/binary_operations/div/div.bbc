@@ -1,0 +1,6 @@
+NAME: div
+DESCRIPTION: divides one number by another and returns the quotient
+SRC:
+(/ 5 2)
+EXPECTED:
+|ORACLE

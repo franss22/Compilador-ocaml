@@ -1,0 +1,6 @@
+NAME: gt_e
+DESCRIPTION: compares two numbers and returns wether the first is greater than the second or not
+SRC:
+(> 20 20)
+EXPECTED:
+|ORACLE

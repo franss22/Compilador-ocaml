@@ -1,0 +1,8 @@
+NAME: get_fail_type_l
+DESCRIPTION: tries to get an element from a non-tuple
+STATUS:
+RT error
+SRC:
+(get false 2)
+EXPECTED:
+Type error: Expected tuple but got false

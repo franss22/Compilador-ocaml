@@ -1,0 +1,6 @@
+NAME: let
+DESCRIPTION: evaluates a let expression
+SRC:
+(let (x 2) (+ 9 x))
+EXPECTED:
+|ORACLE

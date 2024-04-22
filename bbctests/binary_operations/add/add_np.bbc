@@ -1,0 +1,6 @@
+NAME: add_np
+DESCRIPTION: adds a negative and a positive number
+SRC:
+(+ -20 22)
+EXPECTED:
+|ORACLE

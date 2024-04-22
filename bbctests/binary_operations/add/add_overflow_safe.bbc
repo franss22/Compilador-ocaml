@@ -1,0 +1,9 @@
+NAME: add_overflow_safe
+DESCRIPTION: Tries to add two big numbers causing an overflow, with safety flag enabled
+PARAMS: SAFE=1
+STATUS:
+RT error
+SRC:
+(+ 4000003457824524141 811686018427387904)
+EXPECTED:
+Arithmetic error: \+ produced an overflow

@@ -1,0 +1,11 @@
+NAME: duplicate_fields_error_record
+DESCRIPTION: declares a recor with 2 fields with the same name
+STATUS:
+CT error
+SRC:
+(
+    (record rec a a a a)
+    (rec 1 2 3 4)
+)
+EXPECTED:
+Duplicate field in record rec

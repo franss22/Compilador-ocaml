@@ -1,0 +1,9 @@
+NAME: comp_if_tag
+DESCRIPTION: Check if function tags are unique from body tags
+SRC:
+(
+    (def (func a) (if a 1 2))
+    (if true (func true)(func false))
+)
+EXPECTED:
+|ORACLE

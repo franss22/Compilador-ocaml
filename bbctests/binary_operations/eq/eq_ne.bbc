@@ -1,0 +1,6 @@
+NAME: eq_n
+DESCRIPTION: compares two numbers and returns wether they're equal or not
+SRC:
+(== 20 22)
+EXPECTED:
+|ORACLE

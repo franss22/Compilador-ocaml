@@ -1,0 +1,12 @@
+NAME: cross_getters_length_error
+DESCRIPTION: Uses a getter of excessive length on a different record
+STATUS:
+RT error
+SRC:
+(
+    (record rec a)
+    (record bec a b)
+    (bec-b (rec 1))
+)
+EXPECTED:
+Index out of bounds: Tried to access index 1 of (tup 1)

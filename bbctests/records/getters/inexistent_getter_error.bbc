@@ -1,0 +1,11 @@
+NAME: inexistent_getter_error
+DESCRIPTION: Uses a getter that doesnt exist
+STATUS:
+CT error
+SRC:
+(
+    (record rec a)
+    (rec-x (rec 1))
+)
+EXPECTED:
+Undefined function: rec-x

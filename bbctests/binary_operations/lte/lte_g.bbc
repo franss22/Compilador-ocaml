@@ -1,0 +1,6 @@
+NAME: lte_g
+DESCRIPTION: compares two numbers and returns wether the first is less or equal than the second or not
+SRC:
+(<= 24 22)
+EXPECTED:
+|ORACLE

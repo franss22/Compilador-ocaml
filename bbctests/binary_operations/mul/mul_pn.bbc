@@ -1,0 +1,6 @@
+NAME: mul_pn
+DESCRIPTION: multiplies a positive and a negative number
+SRC:
+(* 20 -22)
+EXPECTED:
+|ORACLE

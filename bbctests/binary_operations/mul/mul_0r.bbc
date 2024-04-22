@@ -1,0 +1,6 @@
+NAME: mul_0r
+DESCRIPTION: multiplies a number with 0
+SRC:
+(* 20 0)
+EXPECTED:
+|ORACLE

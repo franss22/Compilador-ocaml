@@ -1,0 +1,8 @@
+NAME: if_nested
+DESCRIPTION: evaluates a nested if expression
+SRC:
+(if (or true false) 
+    (if (< 1 3) 8 3)
+    (if (!= 4 4) 5 5))
+EXPECTED:
+|ORACLE

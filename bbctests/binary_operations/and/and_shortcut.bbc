@@ -1,0 +1,6 @@
+NAME: and_shortcut
+DESCRIPTION: avoids run-time error using and shortcut
+SRC:
+(and false 34)
+EXPECTED:
+false

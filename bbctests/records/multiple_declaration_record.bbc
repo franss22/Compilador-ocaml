@@ -1,0 +1,15 @@
+NAME: multiple_declaration_record
+DESCRIPTION: declares multiple different records without using them
+SRC:
+(
+    (record rec)
+    (record asd)
+    (record wer)
+    (record rte)
+    (record afg)
+    (record asq)
+
+    1
+)
+EXPECTED:
+|ORACLE

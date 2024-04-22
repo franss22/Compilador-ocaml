@@ -1,0 +1,9 @@
+NAME: func_local_space
+DESCRIPTION: Make soure enough local space is given to a function
+SRC:
+(
+    (def (func x) (let (a 1) (let (b 2) (let (c 3) (let (d 4) (+ (+ a b) (+ c (+ d x))))))))
+    (func 2)
+)
+EXPECTED:
+|ORACLE

@@ -1,0 +1,8 @@
+NAME: mul_overflow_safe
+DESCRIPTION: Tries to multiply two numbers causing an overflow
+STATUS:
+RT error
+SRC:
+(* 4000003457824524141 811686018427387904)
+EXPECTED:
+Arithmetic error: \* produced an overflow

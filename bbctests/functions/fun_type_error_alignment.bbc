@@ -1,0 +1,11 @@
+NAME: fun_type_error_alignment
+DESCRIPTION: Check if stack alignment is correct when calling print from type error
+STATUS:
+RT error
+SRC:
+( 
+    (def (f a b c d e f g) (not 1))
+         (f 1 2 3 4 5 6 7)
+)
+EXPECTED:
+Type error: Expected boolean but got 1

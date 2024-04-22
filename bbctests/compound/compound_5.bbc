@@ -1,0 +1,9 @@
+NAME: compound5
+DESCRIPTION: compound expression
+SRC:
+(if (or true false) 
+    (let (x 2) 
+        (if (< x 3) 8 3))
+    (if (!= 4 4) 4 (let (x 5) x)))
+EXPECTED:
+|ORACLE

@@ -1,0 +1,6 @@
+NAME: empty_tuple
+DESCRIPTION: evaluates an empty tuple
+SRC:
+((tup))
+EXPECTED:
+|ORACLE

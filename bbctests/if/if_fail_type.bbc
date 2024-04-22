@@ -1,0 +1,8 @@
+NAME: if_fail_type
+DESCRIPTION: tries to use a number as condition for an if
+STATUS:
+RT error
+SRC:
+(if 34 845 734)
+EXPECTED:
+Type error: Expected boolean but got 34

@@ -1,0 +1,8 @@
+NAME: div_fail_type_r
+DESCRIPTION: tries to divide a number by a boolean
+STATUS:
+RT error
+SRC:
+(/ 42 true)
+EXPECTED:
+Type error: Expected integer but got true

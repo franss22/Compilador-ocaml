@@ -1,0 +1,6 @@
+NAME: add1_0
+DESCRIPTION: increments -1
+SRC:
+(add1 -1)
+EXPECTED:
+|ORACLE

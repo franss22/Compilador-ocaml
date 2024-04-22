@@ -1,0 +1,13 @@
+NAME: garbage collection simple
+DESCRIPTION: tuple as variable in a let expression
+PARAMS: USE_GC=1, HEAP_SIZE=4
+SRC:
+(let (a  (get (tup 3 3 ) 1))
+(let (b  (get (tup 4 4 ) 1))
+(let (c  (get (tup 5 5 ) 1))
+
+(tup a b c)
+
+)))
+EXPECTED:
+|ORACLE

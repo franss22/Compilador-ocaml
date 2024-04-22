@@ -1,0 +1,6 @@
+NAME: if
+DESCRIPTION: evaluates an if expression
+SRC:
+(if (or true false) (+ 10 1) 7)
+EXPECTED:
+|ORACLE

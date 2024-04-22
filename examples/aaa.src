@@ -1,0 +1,7 @@
+(
+    (def (func a b c d e f g h i j k l) 
+        (if (<= b i)
+            (% (+ (+ (/ a d) e) (* c k)) f)
+            (/ (- c (* g h)) (if (> j l) (add1 l) (sub1 j)))))
+    (func 12 11 10 9 8 7 6 5 4 3 2 1)
+)

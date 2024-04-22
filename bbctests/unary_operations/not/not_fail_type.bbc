@@ -1,0 +1,8 @@
+NAME: not_fail_type
+DESCRIPTION: tries to negate a number
+STATUS:
+RT error
+SRC:
+(not 34)
+EXPECTED:
+Type error: Expected boolean but got 34

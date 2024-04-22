@@ -1,0 +1,6 @@
+NAME: neq_ne
+DESCRIPTION: compares two numbers and returns wether distinct or not
+SRC:
+(!= 20 22)
+EXPECTED:
+|ORACLE

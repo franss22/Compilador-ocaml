@@ -1,0 +1,8 @@
+NAME: sub_overflow_safe
+DESCRIPTION: Tries to subtract two numbers causing an underflow, with safety flag enabled
+STATUS:
+RT error
+SRC:
+(- -4000003457824524141 811686018427387904)
+EXPECTED:
+Arithmetic error: - produced an underflow

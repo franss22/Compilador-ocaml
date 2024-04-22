@@ -1,0 +1,9 @@
+NAME: let_nested
+DESCRIPTION: evaluates a nested let expression
+SRC:
+(let (x (+ 8 3)) 
+    (let (y (sub1 x))
+        (let (x 1)
+            (* x y))))
+EXPECTED:
+|ORACLE

@@ -1,0 +1,8 @@
+NAME: add1_fail_type
+DESCRIPTION: tries to add1 to a boolean
+STATUS:
+RT error
+SRC:
+(add1 true)
+EXPECTED:
+Type error: Expected integer but got true

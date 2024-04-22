@@ -1,0 +1,6 @@
+NAME: le_tup
+DESCRIPTION: tuple as variable in a let expression
+SRC:
+(let (t (tup 1 2 3)) t)
+EXPECTED:
+|ORACLE

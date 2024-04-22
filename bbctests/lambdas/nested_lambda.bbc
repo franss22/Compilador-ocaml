@@ -1,0 +1,10 @@
+NAME: nested lambda
+DESCRIPTION: nested lambda
+SRC:
+(let (f (lambda (x) 
+  (let (g (lambda (y) 
+    (+ x y)))
+    (@ g 5))))
+  (@ f 2))
+EXPECTED:
+|ORACLE

@@ -1,0 +1,20 @@
+NAME: error many small lambdas
+DESCRIPTION: Add too many small lambdas for a 10 word heap
+PARAMS: USE_GC=1, HEAP_SIZE=10
+STATUS: RT error
+SRC:
+
+(let (a1 1)
+(let (a2 1)
+(let (a3 1)
+(let (f1 (lambda () (tup a1 a2 a3)))
+(let (f2 (lambda () (tup a1 a2 a3)))
+(let (f3 (lambda () (tup a1 a2 a3)))
+(let (f4 (lambda () (tup a1 a2 a3)))
+
+1
+
+)))))))
+
+EXPECTED:
+Error: out of memory!

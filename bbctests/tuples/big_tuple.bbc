@@ -1,0 +1,44 @@
+NAME: big_tuple
+DESCRIPTION: evaluates a big tuple
+SRC:
+(tup 
+  1  
+  (tup 2 2 5 3 9) 
+  (+ 2 1)  
+  (if (< 1 2) 4 5)  
+  (* (/ 8 3) (- 9 (+ 2 (/ 5 2)))) 
+  7 
+  4634 
+  239857235 
+  (if (< (* 3 5) (* (* 8 (* 8 8)))) 93827452 2) 
+  1 
+  2 
+  3 
+  5 
+  7 
+  95 
+  34 
+  4 
+  -6 
+  546 
+  32 
+  1 
+  4 
+  -8 
+  0 
+  true 
+  3 
+  -5 
+  false 
+  (or false true) 
+  (< 4 6) 
+  7 
+  435 
+  -1 
+  (tup) 
+  6 
+  3 
+  (tup 2 5 4) 
+)
+EXPECTED:
+|ORACLE

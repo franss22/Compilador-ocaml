@@ -1,0 +1,6 @@
+NAME: compound4
+DESCRIPTION: compound expression
+SRC:
+(not (not (not (and (or (== 3 3) (!= 3 3)) (not (and (> 3 3) (<= 3 3)))))))
+EXPECTED:
+|ORACLE

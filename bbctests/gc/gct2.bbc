@@ -1,0 +1,16 @@
+NAME: garbage collection simple
+DESCRIPTION: tuple as variable in a let expression
+PARAMS: USE_GC=1, HEAP_SIZE=16
+STATUS: RT error
+SRC:
+(let (t1 (tup 1 2 3)) 
+(let (t2 (tup 2 2 3)) 
+(let (t3 (tup 3 2 3)) 
+(let (t4 (tup 4 2 3)) 
+(let (t5 (tup 5 2 3)) 
+(let (t6 (tup 6 2 3)) 
+(let (t7 (tup 7 2 3)) 
+1
+)))))))
+EXPECTED:
+Error: out of memory!

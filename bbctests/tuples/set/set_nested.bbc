@@ -1,0 +1,6 @@
+NAME: set_nested
+DESCRIPTION: sets value of a nested tuple
+SRC:
+(set (get (tup 1 2 (tup 1 2 4)) 2) 2 3)
+EXPECTED:
+|ORACLE

@@ -1,0 +1,9 @@
+NAME: declaration
+DESCRIPTION: declares a record without using it
+SRC:
+(
+    (record rec)
+    1
+)
+EXPECTED:
+|ORACLE

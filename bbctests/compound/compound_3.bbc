@@ -1,0 +1,6 @@
+NAME: compound3
+DESCRIPTION: compound expression
+SRC:
+(not (xor (< 3 (add1 (+ 2 5))) (>= (- 7 (sub1 4)) (* 3 10))))
+EXPECTED:
+|ORACLE

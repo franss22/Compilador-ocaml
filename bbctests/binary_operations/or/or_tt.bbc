@@ -1,0 +1,6 @@
+NAME: or_tt
+DESCRIPTION: ors two bools
+SRC:
+(or true true)
+EXPECTED:
+|ORACLE

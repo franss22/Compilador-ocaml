@@ -1,0 +1,6 @@
+NAME: lambda
+DESCRIPTION: lambda
+SRC:
+(lambda (x) (if x 7 13))
+EXPECTED:
+|ORACLE

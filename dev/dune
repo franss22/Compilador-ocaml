@@ -1,0 +1,4 @@
+(library
+ (name dev)
+ (modules ast anf asm parse interp fun typeCheck safetyCheck compile env util lambda)
+ (libraries containers))

@@ -1,0 +1,6 @@
+NAME: bool_false
+DESCRIPTION: evaluates a boolean false
+SRC:
+false
+EXPECTED:
+|ORACLE

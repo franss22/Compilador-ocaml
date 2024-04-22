@@ -1,0 +1,8 @@
+NAME: one big tuple
+DESCRIPTION: one tuple bigger than the heap space
+PARAMS: USE_GC=1, HEAP_SIZE=2
+STATUS: RT error
+SRC:
+(tup 1 2 3 4 4)
+EXPECTED:
+Error: out of memory!

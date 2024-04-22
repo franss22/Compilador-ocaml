@@ -1,0 +1,6 @@
+NAME: compound2
+DESCRIPTION: compound expression
+SRC:
+(or (and true true) false)
+EXPECTED:
+|ORACLE

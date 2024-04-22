@@ -1,0 +1,6 @@
+NAME: gt_l
+DESCRIPTION: compares two numbers and returns wether the first is greater than the second or not
+SRC:
+(> 20 22)
+EXPECTED:
+|ORACLE

@@ -1,0 +1,6 @@
+NAME: tuple
+DESCRIPTION: evaluates a tuple
+SRC:
+(tup 1 2 (+ 2 1) (if (< 1 2) 4 5))
+EXPECTED:
+|ORACLE

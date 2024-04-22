@@ -1,0 +1,7 @@
+NAME: get_due
+DESCRIPTION: gets and sums two values from a tuple
+SRC:
+(let (t (tup 1 2 3 4))
+  (+ (get t 1) (get t 3)))
+EXPECTED:
+|ORACLE

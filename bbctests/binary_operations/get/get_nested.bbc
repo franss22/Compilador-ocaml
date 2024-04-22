@@ -1,0 +1,6 @@
+NAME: get_nested
+DESCRIPTION: gets value from a nested tuple
+SRC:
+(get (get (tup 1 2 (tup 1 2 3)) 2) 2)
+EXPECTED:
+|ORACLE

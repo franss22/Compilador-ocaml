@@ -1,0 +1,8 @@
+NAME: div_fail_0_safe
+DESCRIPTION: tries to divide a number by zero
+STATUS:
+RT error
+SRC:
+(/ 42 0)
+EXPECTED:
+Arithmetic error: Division by 0

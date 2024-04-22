@@ -1,0 +1,8 @@
+NAME: sub1_overflow_safe
+DESCRIPTION: Tries to sub1 to the min integer with safety flag enabled
+STATUS:
+RT error
+SRC:
+(sub1 -4611686018427387904)
+EXPECTED:
+Arithmetic error: - produced an underflow

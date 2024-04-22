@@ -1,0 +1,6 @@
+NAME: sub_nn
+DESCRIPTION: subtracts two negative numbers
+SRC:
+(- -20 -22)
+EXPECTED:
+|ORACLE

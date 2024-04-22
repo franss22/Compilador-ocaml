@@ -1,0 +1,6 @@
+NAME: not_true
+DESCRIPTION: negates a boolean true
+SRC:
+(not true)
+EXPECTED:
+|ORACLE

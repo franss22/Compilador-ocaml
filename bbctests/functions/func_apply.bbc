@@ -1,0 +1,9 @@
+NAME: func_apply
+DESCRIPTION: Apply a simple function
+SRC:
+(
+    (def (func) 1)
+    (func)
+)
+EXPECTED:
+|ORACLE

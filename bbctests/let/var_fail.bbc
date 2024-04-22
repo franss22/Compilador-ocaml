@@ -1,0 +1,8 @@
+NAME: var_fail
+DESCRIPTION: evaluates an undefined variable
+STATUS:
+CT error
+SRC:
+x
+EXPECTED:
+not found

@@ -1,0 +1,8 @@
+NAME: or_fail_type_l
+DESCRIPTION: tries to or a number and a boolean
+STATUS:
+RT error
+SRC:
+(or 34 true)
+EXPECTED:
+Type error: Expected boolean but got 34

@@ -1,0 +1,8 @@
+NAME: set_fail_type_l
+DESCRIPTION: tries to set an element of a non-tuple
+STATUS:
+RT error
+SRC:
+(set false 0 true)
+EXPECTED:
+Type error: Expected tuple but got false

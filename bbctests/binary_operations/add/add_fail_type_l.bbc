@@ -1,0 +1,8 @@
+NAME: add_fail_type_l
+DESCRIPTION: tries to add a boolean and a number
+STATUS:
+RT error
+SRC:
+(+ false 23)
+EXPECTED:
+Type error: Expected integer but got false

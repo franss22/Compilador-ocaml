@@ -1,0 +1,15 @@
+NAME: Test small closure works with 10 words
+DESCRIPTION: Check if a lambda with 3 values fits in 10 words
+PARAMS: USE_GC=1, HEAP_SIZE=10
+SRC:
+
+(let (a1 1)
+(let (a2 1)
+(let (a3 1)
+
+
+(lambda () (tup a1 a2 a3))
+)))))))))
+
+EXPECTED:
+|ORACLE

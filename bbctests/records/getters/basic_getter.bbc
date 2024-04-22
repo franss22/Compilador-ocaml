@@ -1,0 +1,9 @@
+NAME: basic_getter
+DESCRIPTION: USes a getter
+SRC:
+(
+    (record rec a)
+    (rec-a (rec 2))
+)
+EXPECTED:
+|ORACLE

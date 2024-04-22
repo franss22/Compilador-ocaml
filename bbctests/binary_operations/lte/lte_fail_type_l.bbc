@@ -1,0 +1,8 @@
+NAME: lte_fail_type_l
+DESCRIPTION: tries to compare a boolean and a number
+STATUS:
+RT error
+SRC:
+(<= true 42)
+EXPECTED:
+Type error: Expected integer but got true

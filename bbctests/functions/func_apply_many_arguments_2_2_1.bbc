@@ -1,0 +1,12 @@
+NAME: func_apply_many_arguments_2_2_1
+DESCRIPTION: Apply function with many arguments, without forcing to save some of them in the stack
+PARAMS:
+USE_GC=0
+SRC:
+(
+    (def (func a b c d e f g) 
+       (tup a b c d e f g))
+    (func 1 2 3 4 5 6 7)
+)
+EXPECTED:
+|ORACLE
